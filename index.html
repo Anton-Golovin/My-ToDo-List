@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="to-do_list">
+    <div class="title">
+        <span class="title__border"></span>
+        <span class="title__text">My ToDo List</span>
+    </div>
+    <form action="#">
+        <ul class="list">
+            <li class="list__item">
+                <input id="check1" name="check1" class="checkbox__input" type="checkbox" checked/>
+                <label class="list__label" for="check1">
+                    <span class="checkbox__text">Make a new post about...</span>
+                </label>
+                <span class="list__trash">
+                    <img class="trash_icon" src="images/trash.svg" alt="trash">
+                </span>
+            </li>
+            <li class="list__item">
+                <input id="check2" name="check2" class="checkbox__input" type="checkbox" checked/>
+                <label class="list__label" for="check2">
+                    <span class="checkbox__text">Proof read the new post.</span>
+                </label>
+                <span class="list__trash">
+                    <img class="trash_icon" src="images/trash.svg" alt="trash">
+                </span>
+            </li>
+            <li class="list__item">
+                <input id="check3" name="check3" class="checkbox__input" type="checkbox" checked/>
+                <label class="list__label" for="check3">
+                    <span class="checkbox__text">Publish the new post.</span>
+                </label>
+                <span class="list__trash">
+                    <img class="trash_icon" src="images/trash.svg" alt="trash">
+                </span>
+            </li>
+            <li class="list__item">
+                <input id="check4" name="check4" class="checkbox__input" type="checkbox" checked/>
+                <label class="list__label" for="check4">
+                    <span class="checkbox__text">Make research for tomorrows post.</span>
+                </label>
+                <span class="list__trash">
+                    <img class="trash_icon" src="images/trash.svg" alt="trash">
+                </span>
+            </li>
+            <li class="list__item">
+                <input id="check5" name="check5" class="checkbox__input" type="checkbox" checked/>
+                <label class="list__label" for="check5">
+                    <span class="checkbox__text">Take the day off.</span>
+                </label>
+                <span class="list__trash">
+                    <img class="trash_icon" src="images/trash.svg" alt="trash">
+                </span>
+            </li>
+            <li class="list__item">
+                <input id="check6" name="check6" class="checkbox__input" type="checkbox" checked/>
+                <label class="list__label" for="check6">
+                    <span class="checkbox__text">Go to bed.</span>
+                </label>
+                <span class="list__trash">
+                    <img class="trash_icon" src="images/trash.svg" alt="trash">
+                </span>
+            </li>
+            <li class="list__item list__item--clear"></li>
+            <li class="list__item list__item--new_task">
+                <div class="list__label">
+                    <span class="plus">+</span>
+                    <span class="checkbox__text"><i>Add new task...</i></span>
+                </div>
+            </li>
+            <li class="list__item list__item--clear"></li>
+            <li class="list__item list__item--clear"></li>
+        </ul>
+    </form>
+    <div class="overlay overlay--none">
+        <div id="floatingCirclesG">
+            <div class="f_circleG" id="frotateG_01"></div>
+            <div class="f_circleG" id="frotateG_02"></div>
+            <div class="f_circleG" id="frotateG_03"></div>
+            <div class="f_circleG" id="frotateG_04"></div>
+            <div class="f_circleG" id="frotateG_05"></div>
+            <div class="f_circleG" id="frotateG_06"></div>
+            <div class="f_circleG" id="frotateG_07"></div>
+            <div class="f_circleG" id="frotateG_08"></div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div class="message">
+            <p>Test text</p>
+            <span class="close"></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -170,6 +170,7 @@ body * {
 
 /*overlay + loader + message*/
 .overlay {
+    display: none;
     position: absolute;
     top: 0;
     width: 100%;
@@ -184,8 +185,8 @@ body * {
     height: 100%;
     vertical-align: middle;
 }
-.overlay--none {
-    display: none;
+.overlay--show {
+    display: block;
 }
 /*message*/
 .message {

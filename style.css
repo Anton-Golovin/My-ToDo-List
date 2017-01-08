@@ -193,6 +193,7 @@ body * {
     position: relative;
     left: calc(50% - 125px);
     display: inline-block;
+    vertical-align: middle;
     text-align: left;
     width: 250px;
     background-color: #d3e6ff;
@@ -206,6 +207,7 @@ body * {
     position:relative;
     left: calc(50% - 62px);
     display: inline-block;
+    vertical-align: middle;
     width:125px;
     height:125px;
     margin:auto;
